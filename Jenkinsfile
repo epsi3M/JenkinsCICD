@@ -34,7 +34,7 @@ pipeline{
 	}
 	stage('Enregistrement des cheques'){
 	steps{
-		input('Voulez-vous poursuivre ?')
+		
 		echo "les cheques ont bien ete enregistre ! "
 	}
 	}
@@ -46,7 +46,7 @@ pipeline{
 	}
 	stage('Facture'){
 	steps{
-		input('Voulez-vous poursuivre ?')
+		
 		echo "Facture etablie !"
 	}
 	}
