@@ -3,7 +3,7 @@ pipeline{
 	stages{
 	stage('Budgets'){
 	steps{
-		input('Voulez-vous poursuivre ?')
+		//input('Voulez-vous poursuivre ?')
 		echo "Budgets etablis !"
 		
 	}
